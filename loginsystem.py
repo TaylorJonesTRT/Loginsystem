@@ -2,7 +2,6 @@ import json
 import sys
 import hashlib
 
-# TODO: Incorporate while loops so that the program can go back to certain areas after the user has completed either the login or registration.
 
 user_details = {}
 
