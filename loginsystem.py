@@ -42,9 +42,10 @@ while True:
         print("Thank you for registering! You may now sign in!")
         break
 
-    decision = input("What would you like to do now? Continue or Exit?")
+    decision = input(
+        "What would you like to do now? Continue or Exit?").lower()
 
-    if decision == "Continue" or "continue":
+    if decision == "continue":
         continue
     else:
         sys.exit()
