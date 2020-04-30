@@ -11,7 +11,7 @@ with open('user_credentials.json', 'r') as f:
     user_details = json.load(f)
 
 while True:
-    print("Welcome to the new and sphoisticated login system!")
+    print("Welcome to the new and sophisticated login system!")
 
     choice = input("What would you like to do? \n [1]LOGIN \n [2]REGISTER \n")
 
@@ -45,6 +45,6 @@ while True:
     decision = input("What would you like to do now? Continue or Exit?")
 
     if decision == "Continue" or "continue":
-        pass
+        continue
     else:
         sys.exit()
